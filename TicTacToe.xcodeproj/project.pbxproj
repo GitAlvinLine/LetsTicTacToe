@@ -14,7 +14,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		DB0473DF2736F79800964E51 /* TicTacToe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TicTacToe.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB0473DF2736F79800964E51 /* LetsTicTacToe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LetsTicTacToe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB0473E22736F79800964E51 /* TicTacToeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicTacToeApp.swift; sourceTree = "<group>"; };
 		DB0473E42736F79800964E51 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		DB0473E62736F79D00964E51 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -43,7 +43,7 @@
 		DB0473E02736F79800964E51 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				DB0473DF2736F79800964E51 /* TicTacToe.app */,
+				DB0473DF2736F79800964E51 /* LetsTicTacToe.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -84,7 +84,7 @@
 			);
 			name = TicTacToe;
 			productName = TicTacToe;
-			productReference = DB0473DF2736F79800964E51 /* TicTacToe.app */;
+			productReference = DB0473DF2736F79800964E51 /* LetsTicTacToe.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -283,10 +283,10 @@
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.AlvinEscobar.TicTacToe;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = LetsTicTacToe;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -312,10 +312,10 @@
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.AlvinEscobar.TicTacToe;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = LetsTicTacToe;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
