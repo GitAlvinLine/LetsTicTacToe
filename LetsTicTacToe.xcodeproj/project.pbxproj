@@ -11,6 +11,16 @@
 		DB0473E52736F79800964E51 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB0473E42736F79800964E51 /* ContentView.swift */; };
 		DB0473E72736F79D00964E51 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB0473E62736F79D00964E51 /* Assets.xcassets */; };
 		DB0473EA2736F79D00964E51 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB0473E92736F79D00964E51 /* Preview Assets.xcassets */; };
+		DB0473F52736FDF100964E51 /* GamePlayScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB0473F42736FDF100964E51 /* GamePlayScreen.swift */; };
+		DB0473F72738358A00964E51 /* Alerts.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB0473F62738358A00964E51 /* Alerts.swift */; };
+		DB0473F927384BD900964E51 /* GamePlayViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB0473F827384BD900964E51 /* GamePlayViewModel.swift */; };
+		DB0473FC2738532200964E51 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB0473FB2738532200964E51 /* Player.swift */; };
+		DB0473FE2738533700964E51 /* Move.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB0473FD2738533700964E51 /* Move.swift */; };
+		DB047401273853BB00964E51 /* GameCircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB047400273853BB00964E51 /* GameCircleView.swift */; };
+		DB0474042738546500964E51 /* PlayerIndicatorImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB0474032738546500964E51 /* PlayerIndicatorImage.swift */; };
+		DB04740727386C8800964E51 /* ChooseDifficultyScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB04740627386C8800964E51 /* ChooseDifficultyScreen.swift */; };
+		DB047409273890F000964E51 /* DifficultyLevel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB047408273890F000964E51 /* DifficultyLevel.swift */; };
+		DB04740B2738A8D700964E51 /* BackArrowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB04740A2738A8D700964E51 /* BackArrowView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +29,16 @@
 		DB0473E42736F79800964E51 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		DB0473E62736F79D00964E51 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DB0473E92736F79D00964E51 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DB0473F42736FDF100964E51 /* GamePlayScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GamePlayScreen.swift; sourceTree = "<group>"; };
+		DB0473F62738358A00964E51 /* Alerts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alerts.swift; sourceTree = "<group>"; };
+		DB0473F827384BD900964E51 /* GamePlayViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GamePlayViewModel.swift; sourceTree = "<group>"; };
+		DB0473FB2738532200964E51 /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		DB0473FD2738533700964E51 /* Move.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Move.swift; sourceTree = "<group>"; };
+		DB047400273853BB00964E51 /* GameCircleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameCircleView.swift; sourceTree = "<group>"; };
+		DB0474032738546500964E51 /* PlayerIndicatorImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerIndicatorImage.swift; sourceTree = "<group>"; };
+		DB04740627386C8800964E51 /* ChooseDifficultyScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseDifficultyScreen.swift; sourceTree = "<group>"; };
+		DB047408273890F000964E51 /* DifficultyLevel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DifficultyLevel.swift; sourceTree = "<group>"; };
+		DB04740A2738A8D700964E51 /* BackArrowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackArrowView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +71,9 @@
 		DB0473E12736F79800964E51 /* LetsTicTacToe */ = {
 			isa = PBXGroup;
 			children = (
+				DB0473F02736FDA700964E51 /* Model */,
+				DB0473F12736FDAE00964E51 /* Views */,
+				DB0473F22736FDB900964E51 /* ViewModel */,
 				DB0473E22736F79800964E51 /* LetsTicTacToeApp.swift */,
 				DB0473E42736F79800964E51 /* ContentView.swift */,
 				DB0473E62736F79D00964E51 /* Assets.xcassets */,
@@ -65,6 +88,61 @@
 				DB0473E92736F79D00964E51 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		DB0473F02736FDA700964E51 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				DB0473F62738358A00964E51 /* Alerts.swift */,
+				DB0473FB2738532200964E51 /* Player.swift */,
+				DB0473FD2738533700964E51 /* Move.swift */,
+				DB047408273890F000964E51 /* DifficultyLevel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		DB0473F12736FDAE00964E51 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				DB04740527386C6700964E51 /* ChooseDifficultyScreen */,
+				DB0474022738543300964E51 /* GamePlayScreen */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		DB0473F22736FDB900964E51 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				DB0473F827384BD900964E51 /* GamePlayViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		DB0473FF2738538100964E51 /* GamePlayCustomViews */ = {
+			isa = PBXGroup;
+			children = (
+				DB047400273853BB00964E51 /* GameCircleView.swift */,
+				DB0474032738546500964E51 /* PlayerIndicatorImage.swift */,
+				DB04740A2738A8D700964E51 /* BackArrowView.swift */,
+			);
+			path = GamePlayCustomViews;
+			sourceTree = "<group>";
+		};
+		DB0474022738543300964E51 /* GamePlayScreen */ = {
+			isa = PBXGroup;
+			children = (
+				DB0473F42736FDF100964E51 /* GamePlayScreen.swift */,
+				DB0473FF2738538100964E51 /* GamePlayCustomViews */,
+			);
+			path = GamePlayScreen;
+			sourceTree = "<group>";
+		};
+		DB04740527386C6700964E51 /* ChooseDifficultyScreen */ = {
+			isa = PBXGroup;
+			children = (
+				DB04740627386C8800964E51 /* ChooseDifficultyScreen.swift */,
+			);
+			path = ChooseDifficultyScreen;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +215,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DB0474042738546500964E51 /* PlayerIndicatorImage.swift in Sources */,
+				DB04740727386C8800964E51 /* ChooseDifficultyScreen.swift in Sources */,
+				DB0473FE2738533700964E51 /* Move.swift in Sources */,
 				DB0473E52736F79800964E51 /* ContentView.swift in Sources */,
 				DB0473E32736F79800964E51 /* LetsTicTacToeApp.swift in Sources */,
+				DB04740B2738A8D700964E51 /* BackArrowView.swift in Sources */,
+				DB0473F927384BD900964E51 /* GamePlayViewModel.swift in Sources */,
+				DB0473F72738358A00964E51 /* Alerts.swift in Sources */,
+				DB047409273890F000964E51 /* DifficultyLevel.swift in Sources */,
+				DB0473FC2738532200964E51 /* Player.swift in Sources */,
+				DB047401273853BB00964E51 /* GameCircleView.swift in Sources */,
+				DB0473F52736FDF100964E51 /* GamePlayScreen.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,7 +356,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"TicTacToe/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"LetsTicTacToe/Preview Content\"";
 				DEVELOPMENT_TEAM = 25BK2A3LZ7;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -297,7 +385,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"TicTacToe/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"LetsTicTacToe/Preview Content\"";
 				DEVELOPMENT_TEAM = 25BK2A3LZ7;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
